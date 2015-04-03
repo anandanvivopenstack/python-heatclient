@@ -1,8 +1,43 @@
-python-heatclient (0.2.8-0ubuntu1~cloud0) precise-icehouse; urgency=low
+python-heatclient (0.3.0-0ubuntu1~cloud0) trusty-kilo; urgency=medium
 
-  * New update for the Ubuntu Cloud Archive.
+  * New upstream release for the Ubuntu Cloud Archive.
 
- -- Openstack Ubuntu Testing Bot <openstack-testing-bot@ubuntu.com>  Fri, 07 Mar 2014 00:15:14 -0500
+ -- Openstack Ubuntu Testing Bot <openstack-testing-bot@ubuntu.com>  Sat, 21 Mar 2015 10:09:09 +0000
+
+python-heatclient (0.3.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * debian/control: Adjust dependencies. 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Thu, 12 Mar 2015 10:43:34 -0400
+
+python-heatclient (0.2.12-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+  * Open up for vivid.
+  * debian/control: 
+    - Update bzr branch 
+    - Add python-oslotest as a build dependency.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Wed, 12 Nov 2014 09:04:27 -0500
+
+python-heatclient (0.2.10-0ubuntu1) utopic; urgency=medium
+
+  [ Chuck Short ]
+  * debian/control: Add python-httpretty.
+  * debian/patches/skip-ubuntu-tests.patch: Skip failing test.
+
+  [ Liam Young ]
+  * debian/control: Merged in deps from requirements.txt
+
+ -- Chuck Short <zulcss@ubuntu.com>  Thu, 24 Jul 2014 11:48:17 -0400
+
+python-heatclient (0.2.9-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release.
+  * debian/control: Open up juno release
+
+ -- Chuck Short <zulcss@ubuntu.com>  Tue, 03 Jun 2014 09:22:13 -0400
 
 python-heatclient (0.2.8-0ubuntu1) trusty; urgency=medium
 
